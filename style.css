@@ -114,6 +114,7 @@
   }
 
   .arrow {
+    margin-top: 20px;
     margin-left: 93%;
     background-color: white;
     width: 100px;
@@ -161,3 +162,16 @@
 .cart-button:hover {
     background-color: #4a6950;
 }
+
+
+.page3 h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.page3 p {
+  padding-top: 30px;
+  font-size: 18px;
+}
+
