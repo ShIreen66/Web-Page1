@@ -14,25 +14,28 @@
     text-align: center;
     color: white;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 15px;
     height: 40px;
   }
   .navbar {
     display: flex;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     padding: 10px 20px;
     background-color: white;
+    position: fixed;
+    width: 100%;
   }
   
   .logo img {
-    width: 100px; 
+    width: 55px; 
   }
   
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 10px;
   }
   
   .nav-links li a {
@@ -49,7 +52,7 @@
   
   .icons a {
     color: #333;
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 15px;
     text-decoration: none;
   }
@@ -104,3 +107,57 @@
   .oval-button:hover {
     background-color: #0056b3; 
   }
+   
+  h2 {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .arrow {
+    margin-left: 93%;
+    background-color: white;
+    width: 100px;
+    height: 1px;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    max-width: 1300px;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.gallery-item {
+    position: relative;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.cart-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cart-button:hover {
+    background-color: #4a6950;
+}
